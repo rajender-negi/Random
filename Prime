@@ -14,6 +14,25 @@ public class Prime {
             }
         }
         return true;
+    }    
+}
+
+/*
+import java.lang.Math;
+public class Prime {
+    public static void main(String args[]) {
+      System.out.println(isPrime(11));
     }
     
-}
+    static boolean isPrime(int n)
+    {
+        for(int x=2;x<=Math.sqrt(n);x++)
+        {
+            if(n%x==0) 
+            {
+                return false;
+            }
+        }
+        return true;
+    }   
+} */
